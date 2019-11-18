@@ -160,11 +160,11 @@ def EEGNet(nb_classes, Chans = 64, Samples = 128,
     block2       = dropoutType(dropoutRate)(block2)
         
     flatten      = Flatten(name = 'flatten')(block2)
-    dense1 		 = Dense(64, activation = 'tanh')(flatten)
+    dense 		 = Dense(64, activation = 'tanh')(flatten)
     
-    dense        = Dense(nb_classes, name = 'dense', 
-                         kernel_constraint = max_norm(norm_rate))(dense1)
-    softmax      = Activation('softmax', name = 'softmax')(dense)
+    dense1        = Dense(nb_classes, name = 'dense1', 
+                         kernel_constraint = max_norm(norm_rate))(dense)
+    softmax      = Activation('softmax', name = 'softmax')(dense1)
     
     return Model(inputs=input1, outputs=softmax)
 
