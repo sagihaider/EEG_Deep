@@ -12,3 +12,6 @@ and
 2. Raza, H., Chowdhury, A., Bhattacharyya, S. and Samothrakis, S., 2020, July. Single-Trial EEG Classification with EEGNet and Neural Structured Learning for Improving BCI Performance. In 2020 International Joint Conference on Neural Networks (IJCNN) (pp. 1-8). IEEE.
 
 ```
+
+> Blockquote
+2. Raza, H., Chowdhury, A., Bhattacharyya, S. and Samothrakis, S., 2020, July. Single-Trial EEG Classification with EEGNet and Neural Structured Learning for Impro
